@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerController : MonoBehaviour {
 
     public float speed;
-    public Text countText;
-    public Text winText;
+    public TextMeshProUGUI countText;
+    public TextMeshProUGUI winText;
     
     private Rigidbody rb;
     private int count;
